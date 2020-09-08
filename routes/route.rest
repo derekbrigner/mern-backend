@@ -1,0 +1,21 @@
+GET http://localhost:3001/api/todos
+
+###
+
+GET http://localhost:3001/api/todos/5f55a2130e7248a68084b179
+
+###
+POST http://localhost:3001/api/todos
+Content-type: application/json
+
+{
+    "todoItem": "New Todo 2"
+}
+
+###
+PATCH http://localhost:3001/api/todos/5f55a2130e7248a68084b179
+Content-type: application/json
+
+{
+    "todoItem": "Start Tutorial 2 Patch Successful"
+}
